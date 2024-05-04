@@ -1,0 +1,7 @@
+-> This program uses socket to act as communication channels between two programs.
+-> To run the program enter the command "python3 chat_app.py"
+-> Then, enter the PORT number where the socket needs to run and give the program a name
+-> Then, enter the PORT number the program needs to read from.
+-> Similarly run another instance of the program and as required.
+-> Now, send any message from any of the programs. This message will be displayed on the other program's console.
+-> if the message is "transfer filename", then the file will sent from source program to the destination program.

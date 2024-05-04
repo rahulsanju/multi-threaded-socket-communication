@@ -1,0 +1,12 @@
+Socket-Programming using python:
+-> This project is to implement a simple version of FTP client and FTP server.
+-> It uses Sockets to establish communication with the client and the server.
+-> FTP Server is run by using the command "python server.py"
+-> FTP Client is run by using the command "python client_1.py"
+    -> To connect to the server use the command "ftpclient 8080"(8080 is the port server runs on)
+-> This establishes the connection between the client and the server.
+-> "get <file name>" command will download a file from the server to the client with "new_<file name>".
+-> "upload <file name>" command will upload a file from the client to the server with "new_<file name>".
+-> The above commands can be run continuously until either server or client disconnects.
+-> This server supports multiple clients at any given instance.
+-> To run a separate instance of the client enter the command "python client_1.py". This creates the connection in a new thread.
